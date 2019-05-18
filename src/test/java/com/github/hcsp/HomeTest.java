@@ -8,7 +8,7 @@ public class MainTest {
     @Test
     public void testNewCats() {
         Main.createTwoCats();
-        assertEquals("cat(black)", Main.black.toLowerCase());
-        assertEquals("cat(white)", Main.white.toLowerCase());
+        assertEquals("cat(black)", Main.black.toString().toLowerCase());
+        assertEquals("cat(white)", Main.white.toString().toLowerCase());
     }
 }
