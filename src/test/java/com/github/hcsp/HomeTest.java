@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class HomeTest {
     @Test
     public void testNewCats() {
-        Main.createTwoCats();
+        Home.createTwoCats();
         assertEquals("cat(black)", Home.black.toString().toLowerCase());
         assertEquals("cat(white)", Home.white.toString().toLowerCase());
     }
