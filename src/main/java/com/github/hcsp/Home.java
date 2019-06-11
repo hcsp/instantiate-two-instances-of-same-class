@@ -16,12 +16,5 @@ public class Home {
         // Create two new Cats named "Black" and "White"
         // then assign them to "black" and "white" static variable respectively
         // 在这里创建两个名字为"Black"和"White"的Cat实例，分别赋值给"black"和"white"静态变量
-            Cat catw = new Cat();
-            catw.name = "white";
-            white = catw;
-
-            Cat catb = new Cat();
-            catb.name = "black";
-            black = catb;
     }
 }
