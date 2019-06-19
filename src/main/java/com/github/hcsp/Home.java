@@ -1,6 +1,6 @@
-package com.github.hcsp;
+package main.java.com.github.hcsp;
 
-import com.github.hcsp.pet.Cat;
+import main.java.com.github.hcsp.pet.Cat;
 
 public class Home {
     public static Cat black;
