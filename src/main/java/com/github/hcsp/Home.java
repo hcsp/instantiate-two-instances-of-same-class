@@ -1,4 +1,4 @@
-package main.java.com.github.hcsp;
+package com.github.hcsp;
 
 import main.java.com.github.hcsp.pet.Cat;
 
