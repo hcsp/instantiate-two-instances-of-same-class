@@ -21,6 +21,6 @@ public class Home {
         cat1.name = "Black";
         cat2.name = "White";
         black = cat1;
-        black = cat2;
+        white = cat2;
     }
 }
