@@ -20,5 +20,7 @@ public class Home {
         Cat cat2 = new Cat();
         cat1.name = "Black";
         cat2.name = "White";
+        black = cat1;
+        black = cat2;
     }
 }
