@@ -1,7 +1,6 @@
 package com.github.hcsp;
 
 import com.github.hcsp.pet.Cat;
-import com.sun.deploy.util.BlackList;
 
 public class Home {
     public static Cat black;
@@ -17,13 +16,11 @@ public class Home {
         // Create two new Cats named "Black" and "White"
         // then assign them to "black" and "white" static variable respectively
         // 在这里创建两个名字为"Black"和"White"的Cat实例，分别赋值给"black"和"white"静态变量
-        Cat Black = new Cat();
-        Black.name = "Black";
-
-        Cat White = new Cat();
-        White.name = "White";
-
-        black = Black;
-        white = White;
+        Cat cat1 = new Cat();
+        Cat cat2 = new Cat();
+        cat1.name = "Black";
+        cat2.name = "White";
+        black = cat1;
+        white = cat2;
     }
 }
