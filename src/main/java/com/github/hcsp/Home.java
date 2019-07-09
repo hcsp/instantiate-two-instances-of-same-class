@@ -18,7 +18,9 @@ public class Home {
         // 在这里创建两个名字为"Black"和"White"的Cat实例，分别赋值给"black"和"white"静态变量
         Cat Black=new Cat();
         Cat White=new Cat();
-        Black=black;
-        White=white;
+        white=White;
+        black=Black;
+        black.name="Black";
+        white.name="White";
     }
 }
