@@ -14,8 +14,8 @@ public class Home {
 
     public static void createTwoCats() {
         Cat Black=new Cat();
-        black=Black;
         Cat White=new Cat();
+        black=Black;
         white=White;
         // Create two new Cats named "Black" and "White"
         // then assign them to "black" and "white" static variable respectively
