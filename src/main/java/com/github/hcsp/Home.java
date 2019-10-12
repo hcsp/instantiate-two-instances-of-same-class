@@ -19,7 +19,7 @@ public class Home {
         black = new Cat();
         black.name="Black";
         white = new Cat();
-        white.name="While";
+        white.name="White";
 
 
     }
