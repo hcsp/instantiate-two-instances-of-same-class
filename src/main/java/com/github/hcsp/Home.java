@@ -14,11 +14,8 @@ public class Home {
     }
 
     public static void createTwoCats() {
-        Cat cat1 = new Cat();
-        Cat cat2 = new Cat();
-
-        black = cat1;
-        white = cat2;
+        black = new Cat();
+        white = new Cat();
 
         black.name = "Black";
         white.name = "White";
