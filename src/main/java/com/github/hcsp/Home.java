@@ -20,5 +20,6 @@ public class Home {
         black.name="Black";
         white=new Cat();
         white.name="White";
+
     }
 }
