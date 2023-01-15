@@ -1,7 +1,6 @@
 package com.github.hcsp;
 
 import com.github.hcsp.pet.Cat;
-import com.sun.xml.internal.bind.WhiteSpaceProcessor;
 
 public class Home {
     public static Cat black;
